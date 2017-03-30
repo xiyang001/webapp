@@ -42,7 +42,7 @@
 
     }
 </script>
-<style lang="stylus">
+<style lang="stylus" rel="stylesheet/stylus">
   .bookBox
     padding-top 38px
   .bookList
@@ -79,6 +79,4 @@
       background: linear-gradient(to right, transparent, #fff 55%);
     .more
       float right
-
-
 </style>

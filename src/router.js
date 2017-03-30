@@ -54,7 +54,24 @@ module.exports ={
         {
           path:'/',
           component:require('./components/moviePages/Hot.vue')
-        }
+        },
+        {
+          path:'/movie/hot',
+          component:require('./components/moviePages/Hot.vue')
+        },
+        {
+          path:'/movie/top',
+          component:require('./components/moviePages/Top.vue')
+        },
+        {
+          path:'/movie/coming',
+          component:require('./components/moviePages/Coming.vue')
+        },
+        {
+          path:'/movie/search',
+          component:require('./components/moviePages/Search.vue')
+        },
+
       ]
     },
     {

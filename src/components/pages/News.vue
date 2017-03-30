@@ -28,7 +28,7 @@
         }
     }
 </script>
-<style lang="stylus">
+<style lang="stylus" rel="stylesheet/stylus">
   .tab
     width 100%
     height 36px
@@ -55,5 +55,4 @@
   .slide-enter, .slide-leave-active
     transform translateX(150px)
     opacity 0
-
 </style>

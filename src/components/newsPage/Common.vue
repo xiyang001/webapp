@@ -27,7 +27,7 @@
         }
     }
 </script>
-<style lang="stylus">
+<style lang="stylus" rel="stylesheet/stylus">
   .itemBox
     padding-top 38px
     li
@@ -64,5 +64,4 @@
         white-space:nowrap
         span
           margin-right 5px
-
 </style>

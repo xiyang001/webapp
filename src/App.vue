@@ -8,9 +8,9 @@
       <div @click="closemenu">
         <router-link to="/movie/hot"><i class="iconfont icon-dianying"></i>电影</router-link>
       </div>
-      <div @click="closemenu">
+      <!--<div @click="closemenu">
         <router-link to="/music"><i class="iconfont icon-yinle"></i>音乐</router-link>
-      </div>
+      </div>-->
       <div @click="closemenu">
         <router-link to="/book/wenxue"><i class="iconfont icon-icon"></i>图书</router-link>
       </div>
@@ -41,7 +41,7 @@
     }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" rel="stylesheet/stylus">
 @import './common/css/base.styl'
   html,body
     height 100%
@@ -91,7 +91,5 @@
   .main
     width 100%
     height 100%
-    overflow-y scroll
-  .router-link-active
-    color red
+    overflow-y scroll;
 </style>
