@@ -32,7 +32,7 @@
                 text-color="#ff9900">
               </el-rate>
             </div>
-            <a :href="item.alt" class="more">更多》</a>
+            <a :href="item.alt" class="more">详情》</a>
           </div>
         </li>
       </ul>
