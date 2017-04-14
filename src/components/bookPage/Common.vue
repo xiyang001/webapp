@@ -20,7 +20,7 @@
           </el-rate>
         </div>
         <div class="summary">简介：{{book.summary}}</div>
-        <a :href="book.alt" class="more">更多》</a>
+        <a :href="book.alt" class="more">更多</a>
       </li>
     </ul>
   </div>
